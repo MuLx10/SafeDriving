@@ -158,7 +158,7 @@ def simulate(model, train_mode=False, render_mode=True, num_episode=5, seed=-1, 
   reward_list = []
   t_list = []
 
-  max_episode_length = 100
+  max_episode_length = 10000
   recording_mode = False
   penalize_turning = False
 
